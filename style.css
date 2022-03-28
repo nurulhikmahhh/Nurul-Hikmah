@@ -1,0 +1,154 @@
+*{
+    text-decoration-color: #FF7BA9;
+    margin: 0;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper {
+    width: 1000px;
+    margin:auto;
+    position:relative;
+}
+.logo a {
+    font-size: 60px;
+    font-weight: bold;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FF6464;
+}
+.menu {
+    float: right;
+    
+}
+nav {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #F0FFC2;
+    z-index: 1;
+    border-bottom: 1px solid #FF6464;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: solid;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+.kolom {
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+.kolom .HelloGuys {
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#FF7BA9;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    margin-bottom: 60px;
+    color:#FF7BA9;
+    width: 100%;
+    line-height: 60px;
+}
+a.tbl-biru {
+    background-color: aqua;
+    border-radius: 30px;
+    margin-top: 160px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover  {
+    background-color: #E4AEC5;
+    text-decoration: none;
+}
+a.tbl-pink {
+    background-color: #CE49BF;
+    border-radius: 30px;
+    margin-top: 160px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+p {
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+}
+a.tbl-pink:hover  {
+    background-color: #FFFA4D;
+    text-decoration: none;
+}
+.hmm {
+    background-color: #2FA4FF;
+    border-radius: 30px;
+    margin-top: 160px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.hmm:hover  {
+    background-color: #D18CE0 ;
+    text-decoration: none;
+}
+.yeah {
+    background-color: #FF6B6B;
+    border-radius: 30px;
+    margin-top: 160px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.yeah:hover  {
+    background-color: #6BCB77;
+    text-decoration: none;
+}
+.satu {
+    text-align: center;
+    width: 100%;
+}
+.satu img {
+    width: 100%;
+    border-radius:100%;
+}
+
+}
